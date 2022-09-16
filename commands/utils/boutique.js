@@ -4,7 +4,8 @@ module.exports = {
     name: 'boutique',
     permissions: ['ADD_REACTIONS'],
     description: 'Ouvrir la boutique',
-    run: (client, message, args) => {
+    async run (client, message, args) {
+        await message.delete();
         const rec = new MessageEmbed()
             .setTitle('💵 Boutique')
             .setThumbnail('https://cdn3.iconfinder.com/data/icons/crowdfunding-4/64/x-20-512.png')
@@ -17,7 +18,7 @@ module.exports = {
 
         message.channel.send({ embeds: [rec] });
     },
-    runSlash: (client, interaction) => {
+    runSlash (client, interaction) {
         const rec = new MessageEmbed()
             .setTitle('💵 Boutique')
             .setThumbnail('https://cdn3.iconfinder.com/data/icons/crowdfunding-4/64/x-20-512.png')
