@@ -8,6 +8,7 @@ module.exports = {
         const rec = new MessageEmbed()
             .setTitle('Comment candidater ❓')
             .setThumbnail('https://cdn.iconscout.com/icon/free/png-256/office-staff-9-1184344.png')
+            .setColor('#403f5e')
             .addFields(
                 { name: 'L\'équipe administrative ou animatrice vous intéresse ?', value : 'Pour tenter votre chance, il suffit de suivre ces instructions :\n\n • Vous rendre sur le [forum](https://prism-community.com/forum-35.html).\n• Cliquez sur "Recrutement Staff" dans la catégorie Clone Wars.\n• Suivre les instructions du modèles.\n\nUne fois terminé, attendez une réponse du staff !'}
             )
@@ -20,6 +21,7 @@ module.exports = {
         const rec = new MessageEmbed()
             .setTitle('Comment candidater ❓')
             .setThumbnail('https://cdn.iconscout.com/icon/free/png-256/office-staff-9-1184344.png')
+            .setColor('#403f5e')
             .addFields(
                 { name: 'L\'équipe administrative ou animatrice vous intéresse ?', value : 'Pour tenter votre chance, il suffit de suivre ces instructions :\n\n • Vous rendre sur le [forum](https://prism-community.com/forum-35.html).\n• Cliquez sur "Recrutement Staff" dans la catégorie Clone Wars.\n• Suivre les instructions du modèles.\n\nUne fois terminé, attendez une réponse du staff !'}
             )

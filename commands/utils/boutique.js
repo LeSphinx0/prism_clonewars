@@ -8,6 +8,7 @@ module.exports = {
         const rec = new MessageEmbed()
             .setTitle('💵 Boutique')
             .setThumbnail('https://cdn3.iconfinder.com/data/icons/crowdfunding-4/64/x-20-512.png')
+            .setColor('#403f5e')
             .addFields(
                 { name: 'Vous avez demandé la boutique ?', value : 'Il vous suffit simplement de cliquer sur ce lien :\n\n🔗 https://shop.prism-community.com/\n\nPuis vous pourrez faire votre choix :ringed_planet:'}
             )
@@ -20,6 +21,7 @@ module.exports = {
         const rec = new MessageEmbed()
             .setTitle('💵 Boutique')
             .setThumbnail('https://cdn3.iconfinder.com/data/icons/crowdfunding-4/64/x-20-512.png')
+            .setColor('#403f5e')
             .addFields(
                 { name: 'Vous avez demandé la boutique ?', value : 'Il vous suffit simplement de cliquer sur ce lien :\n\n🔗 https://shop.prism-community.com/\n\nPuis vous pourrez faire votre choix :ringed_planet:'}
             )
