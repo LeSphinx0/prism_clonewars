@@ -6,6 +6,7 @@ module.exports = {
     description: 'Poster votre propre sondage.',
     async run (client, message, args) {
         if (!args[0]) return message.reply('Merci de taper la commande correctement : !sondage [votre contenu]');
+        await message.delete();
 
         const embed = new MessageEmbed()
             .setTitle('📊 Sondage')

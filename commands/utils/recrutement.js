@@ -4,7 +4,8 @@ module.exports = {
     name: 'recrutement',
     permissions: ['ADD_REACTIONS'],
     description: 'Comment devenir staff ?',
-    run: (client, message, args) => {
+    async run (client, message, args) {
+        await message.delete();
         const rec = new MessageEmbed()
             .setTitle('Comment candidater ❓')
             .setThumbnail('https://cdn.iconscout.com/icon/free/png-256/office-staff-9-1184344.png')
